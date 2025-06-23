@@ -1,26 +1,15 @@
-.loader-container {
+body {
   margin: 0;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   background: #f8f9fa;
-  padding: 40px 20px;
-  box-sizing: border-box;
 }
 
 .loader-animation {
   display: flex;
   perspective: 100px;
-  justify-content: center;
-  margin: 60px 0;
-  padding: 40px 0;
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-  width: 100%;
-  max-width: 1000px;
 }
 
 .loader-letter {
@@ -80,20 +69,6 @@
 .loader-letter-7 {
   color: #009688;
   animation-delay: 0.6s;
-}
-
-.loader-description {
-  margin-top: 40px;
-  padding: 0 20px;
-  max-width: 1000px;
-}
-
-.loader-text {
-  margin-bottom: 20px;
-  font-size: 1rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  color: #333;
 }
 
 @media (max-width: 768px) {
